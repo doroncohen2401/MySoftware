@@ -2,7 +2,7 @@ pipeline {
     agent any
 
     stages {
-        stage('Hello') {
+        stage('Stage1') {
             steps {
                 bat "dir"
                 bat "python mySoftware.py"
